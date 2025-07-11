@@ -10,6 +10,9 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/cc2435fc76.js" crossorigin="anonymous"></script>
+
     <!-- Lato google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,20 +54,24 @@
 
                 <div class="navbar-center lg:hidden">
                     <img class="w-10 h-10" src="images/logo.png" alt="">
-                    <a class="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#7E1891] via-[#441752] to-[#1B1833] font-bold ml-2 cursor-pointer">Fruit Burst</a>
+                    <a
+                        class="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#7E1891] via-[#441752] to-[#1B1833] font-bold ml-2 cursor-pointer">Fruit
+                        Burst</a>
                 </div>
 
                 <ul class="menu menu-horizontal px-1 text-white font-bold hidden lg:flex">
-                        <li><a>Home</a></li>
-                        <li><a>About Us</a></li>
-                        <li><a>Shop</a></li>
-                        <li><a>All Fruits</a></li>
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
                 </ul>
-                
+
             </div>
             <div class="navbar-center hidden lg:flex">
                 <img class="w-10 h-10" src="images/logo.png" alt="">
-                <a class="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#7E1891] via-[#441752] to-[#1B1833] font-bold ml-2 cursor-pointer">Fruit Burst</a>
+                <a
+                    class="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#7E1891] via-[#441752] to-[#1B1833] font-bold ml-2 cursor-pointer">Fruit
+                    Burst</a>
             </div>
             <div class="navbar-end hidden lg:flex">
                 <div class="bg-white flex items-center justify-between rounded-full px-6 py-3">
@@ -78,91 +85,115 @@
 
         <div class="carousel w-full rounded-lg">
 
-            <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(./images/banner1.png)] h-[65vh] bg-cover bg-center flex  items-center justify-center">
+            <div id="slide1"
+                class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(./images/banner1.png)] h-[65vh] bg-cover bg-center flex  items-center justify-center">
                 <div class="absolute bg-[#F85559] px-4 py-2 rounded-sm top-5 right-5">
-                    <p class="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#7E1891] via-[#441752] to-[#1B1833] ">Hot Deal!!</p>
-                </div>
-              <div class="flex flex-col items-center justify-center text-white space-y-4">
-                <h1 class="text-2xl lg:text-7xl text-center font-extrabold ">Exotic tastes at your <br>doorstep</h1>
-                <p class="font-medium text-center text-[1.25rem] w-1/2 md:w-full">We supply high quality organic products</p>
-                <button class="btn bg-[#F85559] text-white border-none hover:bg-white hover:text-[#F85559] transition-all duration-200 ease-in">Shop Now</button>
-              </div>
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide4" class="btn btn-circle">❮</a>
-                <a href="#slide2" class="btn btn-circle">❯</a>
-              </div>
-            </div>
-
-            <div id="slide2" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(./images/banner2.png)] h-[65vh] bg-cover bg-center flex  items-center justify-center">
-                <div class="absolute bg-[#F85559] px-4 py-2 rounded-sm top-5 right-5">
-                    <p class="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#7E1891] via-[#441752] to-[#1B1833] ">Yummy!!</p>
+                    <p
+                        class="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#7E1891] via-[#441752] to-[#1B1833] ">
+                        Hot Deal!!</p>
                 </div>
                 <div class="flex flex-col items-center justify-center text-white space-y-4">
-                  <h1 class="text-2xl lg:text-7xl text-center font-extrabold ">Exotic tastes at your <br>doorstep</h1>
-                  <p class="font-medium text-center text-[1.25rem] w-1/2 md:w-full">We supply high quality organic products</p>
-                  <button class="btn bg-[#F85559] text-white border-none hover:bg-white hover:text-[#F85559] transition-all duration-200 ease-in">Shop Now</button>
+                    <h1 class="text-2xl lg:text-7xl text-center font-extrabold ">Exotic tastes at your <br>doorstep</h1>
+                    <p class="font-medium text-center text-[1.25rem] w-1/2 md:w-full">We supply high quality organic
+                        products</p>
+                    <button
+                        class="btn bg-[#F85559] text-white border-none hover:bg-white hover:text-[#F85559] transition-all duration-200 ease-in">Shop
+                        Now</button>
                 </div>
                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                  <a href="#slide1" class="btn btn-circle">❮</a>
-                  <a href="#slide3" class="btn btn-circle">❯</a>
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
-              </div>
-
-            <div id="slide3" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(./images/banner3.png)] h-[65vh] bg-cover bg-center flex  items-center justify-center">
-                <div class="absolute bg-[#F85559] px-4 py-2 rounded-sm top-5 right-5">
-                    <p class="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#7E1891] via-[#441752] to-[#1B1833] ">Hmmm!!</p>
-                </div>
-              <div class="flex flex-col items-center justify-center text-white space-y-4">
-                <h1 class="text-2xl lg:text-7xl text-center font-extrabold ">Exotic tastes at your <br>doorstep</h1>
-                <p class="font-medium text-center text-[1.25rem] w-1/2 md:w-full">We supply high quality organic products</p>
-                <button class="btn bg-[#F85559] text-white border-none hover:bg-white hover:text-[#F85559] transition-all duration-200 ease-in">Shop Now</button>
-              </div>
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide2" class="btn btn-circle">❮</a>
-                <a href="#slide4" class="btn btn-circle">❯</a>
-              </div>
             </div>
 
-            <div id="slide4" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(./images/banner4.png)] h-[65vh] bg-cover bg-center flex  items-center justify-center">
+            <div id="slide2"
+                class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(./images/banner2.png)] h-[65vh] bg-cover bg-center flex  items-center justify-center">
                 <div class="absolute bg-[#F85559] px-4 py-2 rounded-sm top-5 right-5">
-                    <p class="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#7E1891] via-[#441752] to-[#1B1833] ">Jussy!!</p>
+                    <p
+                        class="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#7E1891] via-[#441752] to-[#1B1833] ">
+                        Yummy!!</p>
                 </div>
-              <div class="flex flex-col items-center justify-center text-white space-y-4">
-                <h1 class="text-2xl lg:text-7xl text-center font-extrabold ">Exotic tastes at your <br>doorstep</h1>
-                <p class="font-medium text-center text-[1.25rem] w-1/2 md:w-full">We supply high quality organic products</p>
-                <button class="btn bg-[#F85559] text-white border-none hover:bg-white hover:text-[#F85559] transition-all duration-200 ease-in">Shop Now</button>
-              </div>
-              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide3" class="btn btn-circle">❮</a>
-                <a href="#slide1" class="btn btn-circle">❯</a>
-              </div>
+                <div class="flex flex-col items-center justify-center text-white space-y-4">
+                    <h1 class="text-2xl lg:text-7xl text-center font-extrabold ">Exotic tastes at your <br>doorstep</h1>
+                    <p class="font-medium text-center text-[1.25rem] w-1/2 md:w-full">We supply high quality organic
+                        products</p>
+                    <button
+                        class="btn bg-[#F85559] text-white border-none hover:bg-white hover:text-[#F85559] transition-all duration-200 ease-in">Shop
+                        Now</button>
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
             </div>
-          </div>
 
-          <div class="hidden lg:block h-36 w-2/3 mx-auto bg-white -translate-y-12 rounded-md shadow-lg">
-                <div class="flex items-center justify-around gap-4">
-                    <div class="flex flex-col">
-                        <img src="images/fruit1.png" alt="">
-                        <p class="text-[#121212CC] text-lg font-medium text-center">Grape</p>
-                    </div>
-                    <div class=" flex flex-col">
-                        <img src="images/fruit2.png" alt="">
-                        <p class="text-[#121212CC] text-lg font-medium text-center">Orange</p>
-                    </div>
-                    <div class="flex flex-col">
-                        <img src="images/fruit3.png" alt="">
-                        <p class="text-[#121212CC] text-lg font-medium text-center">Mango</p>
-                    </div>
-                    <div class="flex flex-col">
-                        <img src="images/fruit4.png" alt="">
-                        <p class="text-[#121212CC] text-lg font-medium text-center">Strawberry</p>
-                    </div>
-                    <div class="flex flex-col">
-                        <img src="images/fruit5.png" alt="">
-                        <p class="text-[#121212CC] text-lg font-medium text-center">Pomegranate</p>
-                    </div>
+            <div id="slide3"
+                class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(./images/banner3.png)] h-[65vh] bg-cover bg-center flex  items-center justify-center">
+                <div class="absolute bg-[#F85559] px-4 py-2 rounded-sm top-5 right-5">
+                    <p
+                        class="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#7E1891] via-[#441752] to-[#1B1833] ">
+                        Hmmm!!</p>
                 </div>
-          </div>
+                <div class="flex flex-col items-center justify-center text-white space-y-4">
+                    <h1 class="text-2xl lg:text-7xl text-center font-extrabold ">Exotic tastes at your <br>doorstep</h1>
+                    <p class="font-medium text-center text-[1.25rem] w-1/2 md:w-full">We supply high quality organic
+                        products</p>
+                    <button
+                        class="btn bg-[#F85559] text-white border-none hover:bg-white hover:text-[#F85559] transition-all duration-200 ease-in">Shop
+                        Now</button>
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+
+            <div id="slide4"
+                class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(./images/banner4.png)] h-[65vh] bg-cover bg-center flex  items-center justify-center">
+                <div class="absolute bg-[#F85559] px-4 py-2 rounded-sm top-5 right-5">
+                    <p
+                        class="text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#7E1891] via-[#441752] to-[#1B1833] ">
+                        Jussy!!</p>
+                </div>
+                <div class="flex flex-col items-center justify-center text-white space-y-4">
+                    <h1 class="text-2xl lg:text-7xl text-center font-extrabold ">Exotic tastes at your <br>doorstep</h1>
+                    <p class="font-medium text-center text-[1.25rem] w-1/2 md:w-full">We supply high quality organic
+                        products</p>
+                    <button
+                        class="btn bg-[#F85559] text-white border-none hover:bg-white hover:text-[#F85559] transition-all duration-200 ease-in">Shop
+                        Now</button>
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden lg:block h-36 w-2/3 mx-auto bg-white -translate-y-12 rounded-md shadow-lg">
+            <div class="flex items-center justify-around gap-4">
+                <div class="flex flex-col">
+                    <img src="images/fruit1.png" alt="">
+                    <p class="text-[#121212CC] text-lg font-medium text-center">Grape</p>
+                </div>
+                <div class=" flex flex-col">
+                    <img src="images/fruit2.png" alt="">
+                    <p class="text-[#121212CC] text-lg font-medium text-center">Orange</p>
+                </div>
+                <div class="flex flex-col">
+                    <img src="images/fruit3.png" alt="">
+                    <p class="text-[#121212CC] text-lg font-medium text-center">Mango</p>
+                </div>
+                <div class="flex flex-col">
+                    <img src="images/fruit4.png" alt="">
+                    <p class="text-[#121212CC] text-lg font-medium text-center">Strawberry</p>
+                </div>
+                <div class="flex flex-col">
+                    <img src="images/fruit5.png" alt="">
+                    <p class="text-[#121212CC] text-lg font-medium text-center">Pomegranate</p>
+                </div>
+            </div>
+        </div>
 
     </header>
     <main>
@@ -173,36 +204,37 @@
             <div class="my-20 flex flex-col lg:flex-row items-center justify-center gap-7 ">
                 <div>
                     <h3 class="text-4xl font-bold text-black mb-4">Deal of the day</h3>
-                    <p class="lg:w-2/3 w-50% opacity-80">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <p class="lg:w-2/3 w-50% opacity-80">Contrary to popular belief, is not simply random text. It has
+                        roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
 
                 <div>
                     <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
-  <div class="flex flex-col">
-    <span class="countdown font-mono text-5xl">
-      <span style="--value:15;" aria-live="polite" aria-label="15">15</span>
-    </span>
-    days
-  </div>
-  <div class="flex flex-col">
-    <span class="countdown font-mono text-5xl">
-      <span style="--value:10;" aria-live="polite" aria-label="10">10</span>
-    </span>
-    hours
-  </div>
-  <div class="flex flex-col">
-    <span class="countdown font-mono text-5xl">
-      <span style="--value:24;" aria-live="polite" aria-label="24">24</span>
-    </span>
-    min
-  </div>
-  <div class="flex flex-col">
-    <span class="countdown font-mono text-5xl">
-      <span style="--value:59;" aria-live="polite" aria-label="59">59</span>
-    </span>
-    sec
-  </div>
-</div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:15;" aria-live="polite" aria-label="15">15</span>
+                            </span>
+                            days
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:10;" aria-live="polite" aria-label="10">10</span>
+                            </span>
+                            hours
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:24;" aria-live="polite" aria-label="24">24</span>
+                            </span>
+                            min
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:59;" aria-live="polite" aria-label="59">59</span>
+                            </span>
+                            sec
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -215,7 +247,8 @@
                     <p class="opacity-80">Apples</p>
                     <div class="rating">
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="1 star" />
-                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="2 star" checked="checked" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="2 star"
+                            checked="checked" />
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="3 star" />
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="4 star" />
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="5 star" />
@@ -230,7 +263,8 @@
                     <p class="opacity-80">Orange</p>
                     <div class="rating">
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="1 star" />
-                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="2 star" checked="checked" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="2 star"
+                            checked="checked" />
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="3 star" />
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="4 star" />
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="5 star" />
@@ -245,7 +279,8 @@
                     <p class="opacity-80">Red Dragon</p>
                     <div class="rating">
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="1 star" />
-                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="2 star" checked="checked" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="2 star"
+                            checked="checked" />
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="3 star" />
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="4 star" />
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="5 star" />
@@ -260,7 +295,8 @@
                     <p class="opacity-80">Banana</p>
                     <div class="rating">
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="1 star" />
-                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="2 star" checked="checked" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="2 star"
+                            checked="checked" />
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="3 star" />
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="4 star" />
                         <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" aria-label="5 star" />
@@ -269,6 +305,67 @@
                     <button class="btn btn-ghost text-[#F85559]">Details </button>
                 </div>
             </div>
+            <div class="flex justify-center items-center">
+                <button
+                    class="btn bg-[#F85559] text-white  border-none hover:bg-gray-300 hover:text-[#F85559] transition-all duration-200 ease-in my-20">Shop
+                    All</button>
+            </div>
+        </section>
+
+        <!-- ----------------Meat the Team Section Start------------------- -->
+
+        <section class="container mx-auto px-4 lg:px-12">
+            <div
+                class="relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(./images/banner1.png)] h-[100vh] bg-cover bg-center flex  items-center justify-center mb-20 border rounded-md text-white flex flex-col items-center justify-center space-y-5">
+                <h2 class="text-2xl  font-extrabold lg:text-5xl">Meat the Team Section</h2>
+                <p class="w-30% lg:w-1/2 text-center">Contrary to popular belief, is not simply random text. It has roots in a
+                    piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+
+                <div class="grid grid-cols-4 gap-5">
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="mb-3" src="./images/member1.png" alt="">
+                        <h4 class="lg:text-2xl font-semibold">Awlad Hossain</h4>
+                        <p class="text-sm">Fruits Expert</p>
+                        <div class="space-x-2">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="mb-3" src="./images/member2.png" alt="">
+                        <h4 class="lg:text-2xl font-semibold">Safia Chowdhury</h4>
+                        <p class="text-sm">Fruits Expert</p>
+                        <div class="space-x-2">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="mb-3" src="./images/member3.png" alt="">
+                        <h4 class="lg:text-2xl font-semibold">Rokib Hossain</h4>
+                        <p class="text-sm">Fruits Expert</p>
+                        <div class="space-x-2">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <img class="mb-3" src="./images/member4.png" alt="">
+                        <h4 class="lg:text-2xl font-semibold">Chaity</h4>
+                        <p class="text-sm">Fruits Expert</p>
+                        <div class="space-x-2">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </section>
 
     </main>
